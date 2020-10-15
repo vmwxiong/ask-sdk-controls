@@ -191,7 +191,7 @@ ASK-SDK
  npm install
 ```
 
-Either deploy your skill with `ask deploy` or set up local debugging (See section ["Live testing with local debugging"](#live-testing-with-local-debugging)).
+Either deploy your skill with `ask deploy` or set up local debugging (See section ["Live testing with local debugging"](#34-live-testing-with-local-debugging)).
 
 Once your skill is ready for testing, use the testing page of the developer portal
 (https://developer.amazon.com/alexa/console/ask/test/{SkillID}/development/en_US/) or `ask dialog` to test it out.
@@ -256,7 +256,7 @@ node src/build_interaction_model.js
 If you wish to launch the builder script in vscode, see the `ide/` folder for an example
 launch.json file with suitable targets.
 
-# 3. Exploring the HelloWorld (Controls) skill
+( 3. Exploring the HelloWorld (Controls) skill
 
 The _Hello World (Controls)_ skill is a minimal skill that uses the Controls framework, written in
 JavaScript. In response to a `LaunchRequest` it says hello and then closes the session.
